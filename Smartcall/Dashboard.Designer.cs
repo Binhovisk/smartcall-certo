@@ -137,7 +137,6 @@
             this.btnServiços.TabIndex = 9;
             this.btnServiços.Text = "Serviços";
             this.btnServiços.UseVisualStyleBackColor = false;
-            this.btnServiços.Click += new System.EventHandler(this.btnServiços_Click);
             // 
             // panel2
             // 
