@@ -10,11 +10,23 @@ using System.Windows.Forms;
 
 namespace Smartcall
 {
-    public partial class Form1 : Form
+    public partial class formLogin : Form
     {
-        public Form1()
+        public formLogin()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Dashboard dashboard = new Dashboard();
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }
